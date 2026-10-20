@@ -1,0 +1,62 @@
+<div style="display: flex; justify-content: flex-end; align-items: center; gap: 8px; margin: 10px 0;">
+  <span style="font-size: 14px; color: #555; font-weight: bold;">Tamanho do texto:</span>
+  <button onclick="diminuirFonte()" title="Diminuir texto" style="padding: 6px 12px; font-weight: bold; cursor: pointer; border: 1px solid #ccc; border-radius: 4px; background: #f8f9fa;">A-</button>
+  <button onclick="resetarFonte()" title="Tamanho normal" style="padding: 6px 12px; font-weight: bold; cursor: pointer; border: 1px solid #ccc; border-radius: 4px; background: #f8f9fa;">A</button>
+  <button onclick="aumentarFonte()" title="Aumentar texto" style="padding: 6px 12px; font-weight: bold; cursor: pointer; border: 1px solid #ccc; border-radius: 4px; background: #f8f9fa;">A+</button>
+  
+  <button onclick="window.print()" style="background-color: #0056b3; color: white; padding: 6px 16px; border: none; border-radius: 5px; font-size: 14px; cursor: pointer; box-shadow: 0 2px 4px rgba(0,0,0,0.2); margin-left: 10px;">
+    🖨️ Imprimir ou baixar esta página
+  </button>
+</div>
+
+# INDICADORES, RELATÓRIOS E SALVAMENTO
+
+## Indicadores e Métodos de Cálculo
+
+O **Pesquisa de Preços Lite** exibe indicadores em tempo real para auxiliar na análise dos dados[cite: 2]:
+
+* **Métodos de Cálculo:** Permite visualizar e alternar o critério de obtenção do preço estimado entre *Menor Preço*, *Média* ou *Mediana*. O método selecionado influenciará diretamente no valor de referência calculado pelo sistema[cite: 2].
+* **Painel de Controle Estatístico:** Localizado à direita, apresenta o *Coeficiente de variação*, o *Desvio padrão* e o *Maior preço* encontrado na amostra, servindo de parâmetro para analisar a homogeneidade e a segurança dos dados[cite: 2].
+
+A plataforma também mostra a relação de contratações públicas selecionadas para compor os preços, indicando a quantidade de amostras[cite: 2].
+
+Além disso, é possível detalhar as informações a respeito das compras[cite: 2]. Ao expandir o registro, o usuário tem acesso completo aos dados da compra, incluindo o número do processo, a modalidade de contratação (Ex: *Dispensa*), os dados do fornecedor, a marca do produto e o critério de julgamento[cite: 2].
+
+!!! warning "Atenção"
+    É possível gerenciar as contratações que compõem a pesquisa de preços[cite: 2]. Na coluna **Compor**, é possível ativar ou desativar uma cotação específica; quando desativada, o valor é excluído dos cálculos estatísticos. Na coluna **Ações**, o ícone de lixeira exclui o registro da lista do item[cite: 2].
+
+---
+
+## Aba Resumo e Emissão de Relatórios
+
+**Passo 15:** Após preencher os campos obrigatórios de identificação e escolher as cotações que farão parte da sua pesquisa, clique na aba "Resumo"[cite: 2].
+
+![Aba Resumo](Imagens/pplite-6.png)
+
+Na página de **Resumo**, será possível realizar as seguintes ações[cite: 2]:
+
+* **Gerar Relatório Resumido em PDF:** Para baixar e salvar o relatório resumido da pesquisa realizada, clique no botão "Resumido"[cite: 2].
+* **Gerar Relatório Detalhado em PDF:** O relatório apresentará a média e a mediana dos últimos 12 meses, calculadas a partir das compras homologadas de todos os itens da consulta, junto com os dados de cada item. Para gerar, clique no botão "Detalhado"[cite: 2].
+* **Exportar Dados (CSV):** Caso prefira extrair os dados e salvá-los em formato editável no seu computador, clique em "Exportar CSV" no canto superior direito[cite: 2].
+
+---
+
+## Salvamento da Pesquisa
+
+* **Salvar a Pesquisa na sua Conta:** Para armazenar a consulta e acessá-la posteriormente, clique no botão "Salvar Pesquisa"[cite: 2]. Se você já realizou o login Gov.br no início, o sistema confirmará o salvamento imediatamente; caso contrário, abrirá a tela de autenticação para vincular a pesquisa ao seu perfil[cite: 2].
+
+![Botão Salvar](Imagens/pplite-6a.png)
+
+!!! warning "Atenção"
+    Ao clicar no botão "Home" ou em "Voltar" sem estar autenticado via Gov.br ou sem salvar a pesquisa, o sistema encerrará a consulta e os dados não ficarão salvos[cite: 2]. Para garantir que seu trabalho não seja perdido e possa ser recuperado a qualquer momento, utilize o botão "Salvar Pesquisa" com o login Gov.br antes de sair[cite: 2].
+
+![Botão Voltar e Alerta](Imagens/pplite-8.png)
+
+Caso tenha dúvidas ou precise de suporte, a Central de Atendimento do Ministério da Gestão e da Inovação em Serviços Públicos (MGI) está disponível pelo Portal de Serviços ou pelo telefone **0800 978 9001**, de segunda a sexta-feira, das 8h às 18h[cite: 2].
+
+<br>
+<div style="text-align: right; margin: 10px 0;">
+  <button onclick="window.print()" style="background-color: #0056b3; color: white; padding: 10px 20px; border: none; border-radius: 5px; font-size: 16px; cursor: pointer; box-shadow: 0 2px 4px rgba(0,0,0,0.2);">
+    🖨️ Imprimir ou baixar esta página
+  </button>
+</div>
